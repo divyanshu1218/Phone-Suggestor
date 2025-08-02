@@ -6,7 +6,7 @@ An intelligent web application that helps users find the perfect smartphone base
 
 - **Smart Input Form**: Users input their budget and primary use case
 - **Phone Filtering**: Filter phones from MongoDB based on criteria
-- **AI-Powered Recommendations**: Uses OpenAI GPT to generate personalized recommendations
+- **AI-Powered Recommendations**: Uses Google Gemini AI to generate personalized recommendations
 - **Interactive UI**: Modern, responsive design with beautiful animations
 - **Purchase Links**: Direct links to buy recommended phones
 
@@ -15,7 +15,7 @@ An intelligent web application that helps users find the perfect smartphone base
 - **Frontend**: React + Vite
 - **Backend**: Node.js + Express
 - **Database**: MongoDB + Mongoose
-- **AI**: OpenAI GPT API
+- **AI**: Google Gemini API
 - **Styling**: Modern CSS with gradients and animations
 
 ## 📋 Prerequisites
@@ -54,7 +54,7 @@ Add the following environment variables:
 
 ```env
 MONGODB_URI=mongodb://localhost:27017/phone-selector
-OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 PORT=5000
 ```
 
@@ -130,7 +130,7 @@ AI-project/
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `MONGODB_URI` | MongoDB connection string | Yes |
-| `OPENAI_API_KEY` | OpenAI API key for AI recommendations | Yes |
+| `GEMINI_API_KEY` | Google Gemini API key for AI recommendations | Yes |
 | `PORT` | Backend server port (default: 5000) | No |
 
 ## 🚀 Deployment
@@ -163,7 +163,7 @@ If you encounter any issues:
 1. Check that all dependencies are installed
 2. Verify environment variables are set correctly
 3. Ensure MongoDB is running and accessible
-4. Check OpenAI API key is valid and has credits
+4. Check Google Gemini API key is valid and has credits
 
 ---
 
